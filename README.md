@@ -91,7 +91,21 @@ Java app requirements:
 
 3.2.1 Edit the file ***settings.py*** in the ***watson-vr-python-tester*** sub folder of this project. Put in the values of your **apikey** and **classifier_id** that you saved earlier
 
-3.2.2 In a command prompt or terminal navigate to the ***watson-vr-java-tester*** sub folder of this project. Run the following command to install the dependencies
+3.2.2 In a command prompt or terminal navigate to the ***watson-vr-java-tester*** sub folder of this project.
+
+We suggest you create a virtual environment to  manage the dependencies for this  application.
+
+`pip install -r virtualenv`
+
+Create a virtual environment
+
+`virtualenv -p python3 venv`
+
+Activate the new virtual environment
+
+`source venv/bin/activate`
+
+Now install the dependencies for this project
 
 `pip install -r requirements.txt`
 
