@@ -84,7 +84,7 @@ Java app requirements:
 3.1.1 Click on  **choose your files** in the tile for your new classifier. Select a file ***0001.jpg***  from the ***test_data/morgan_stanley*** sub folder of this project. Verify that the file is classified as a Morgan Stanley logo  with a high confidence level ( approx 80%) relative to the other classes
 ![ready](images/ss14.png)
 
-3.1.2 Click on  **choose your files** in the tile for your new classifier. Select a file ***0001.jpg***  from the ***test_data/other*** sub folder of this project. Verify that the file is not classified in any of the three classes with significant confidence (< 50%)
+3.1.2 Click on  **choose your files** in the tile for your new classifier. Select a file ***0001.jpg***  from the ***test_data/other*** sub folder of this project. Verify that the file is not classified in any of the three classes with significant confidence (> 50%)
 ![ready](images/ss15.png)
 
 ### 3.2 Test with a Python app
