@@ -59,10 +59,10 @@ In this section you'll create a custom classifier using 10 images each of logos 
 2.2.3 Click **Create** to create the classifier. After the training files are uploaded the new classifier will appear in the *training* state.
 ![new classifier](images/ss11.png)
 
-2.2.6 The training will take  about 3-5 minutes. Now is a good time for a coffee break. When the new classifier is trained the state will change to *ready*
+2.2.4 The training will take  about 3-5 minutes. Now is a good time for a coffee break. When the new classifier is trained the state will change to *ready*
 ![ready](images/ss12.png)
 
-2.2.7 Highlight the new classifier's id and copy it to the clipboard. Paste it to the same file you used to save the service's **api_key**. You'll need this later.
+2.2.5 Highlight the new classifier's id and copy it to the clipboard. Paste it to the same file you used to save the service's **api_key**. You'll need this later.
 ![ready](images/ss12.1.png)
 
 ## 3 Test custom classifier
@@ -89,9 +89,9 @@ Java app requirements:
 
 ### 3.2 Test with a Python app
 
-3.2.1 Edit the file ***settings.py*** in the ***test_apps/python*** sub folder of this project. Put in the values of your **apikey** and **clasifier_id** that you saved earlier
+3.2.1 Edit the file ***settings.py*** in the ***watson-vr-python-tester*** sub folder of this project. Put in the values of your **apikey** and **classifier_id** that you saved earlier
 
-3.2.2 In a command prompt or terminal navigate to the ***test_apps/python*** sub folder of this project. Run the following command to install the dependencies
+3.2.2 In a command prompt or terminal navigate to the ***watson-vr-java-tester*** sub folder of this project. Run the following command to install the dependencies
 
 `pip install -r requirements.txt`
 
