@@ -30,7 +30,7 @@ If you are not already signed up for the IBM Cloud, [sign up here](https://conso
 
 ## 2. Create custom classifier
 
-In this section you'll create a custom classifier using 10 images each of logos for Apple, IBM amd Morgan Stanley as well as  10 images of other compnat logos to serve as negative examples. Training custom classifers can be done using the Watson Visual Recognition REST API but you'll use a web application that wraps those APIs to provide a more user friendly experience
+In this section you'll create a custom classifier using 10 images each of logos for Apple, IBM and Morgan Stanley as well as  10 images of other company logos to serve as negative examples. Training custom classifiers can be done using the Watson Visual Recognition REST API but you'll use a web application that wraps those APIs to provide a more user friendly experience
 
 ### 2.1 Launch Watson Visual Recognition tool
 
@@ -47,11 +47,12 @@ In this section you'll create a custom classifier using 10 images each of logos 
 2.2.2 Create the custom classifier
 <ol type="I">
 <li>Name the classifier <b>Logos</b></li>
-<li>Name the first class <b>ibm<b> and then click on <b>choose your files</b> to upload the file  <b>ibm.zip</b> in the <b>training_data</b> sub folder of this project</li>
-<li>Name the first class <b>morgan_stanley<b> and then click on <b>choose your files</b> to upload the file  <b>morgan_stanley.zip</b> in the <b>training_data</b> sub folder of this project</li>
+<li>Name the first class <b>ibm</b> and then click on <b>choose your files</b> to upload the file  <b>ibm.zip</b> in the <b>training_data</b> sub folder of this project</li>
+<li>Name the first class <b>morgan_stanley</b> and then click on <b>choose your files</b> to upload the file  <b>morgan_stanley.zip</b> in the <b>training_data</b> sub folder of this project</li>
 <li>Click on <b>choose your file</b> in the tile for negative examples to upload the file <b>negative_examples.zip</b> in the <b>training_data</b> sub folder of this project.</li>
 <li>Click on <b>Add class</b>, name the class <b>apple</b> and then click on <b>choose your files</b> to upload the file  <b>apple.zip</b></li>
 </ol>
+
 ![create classifier](images/ss9.png)
 
 
